@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+
+import logoStickers from "../src/img/icono.webp"
+
+
+const NavBar = ({inicio, carrito, contacto, logo}) => {
+  return (
+    <nav class="navBar">
+            <img src={logo} alt="logo"/>
+            <ul>
+                <li><a href="#">{inicio}</a></li>
+                <li><a href="#">{carrito}</a></li>
+                <li><a href="#">{contacto}</a></li>
+            </ul>
+        </nav>
+  )
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          HOLA DAVID GONZALEZ MONTI
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+             <NavBar 
+             logo={logoStickers}
+             inicio="INICIO" 
+             carrito="CARRITO" 
+             contacto="CONTACTO"
+             ></NavBar>
     </div>
   );
 }
