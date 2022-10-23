@@ -1,0 +1,28 @@
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000000e3;
+    font-family: 'Akshar', sans-serif;
+    height: 55px;
+    margin: 19px 3px;
+    border-radius: 5px;
+    box-shadow: 1px 0px 12px 3px #d5d3d3;
+  }
+  
+  .navBar img{
+    width: 104px;
+    margin-left: 10px;
+  }
+  
+  .navBar ul {
+    
+    list-style: none;
+    font-size: 1.5rem;
+  }
+  
+  .navBar li {
+    display: inline;
+    margin-right: 30px;
+    color: white;
+  }

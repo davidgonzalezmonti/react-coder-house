@@ -1,20 +1,7 @@
 import './App.css';
+import NavBar from "./components/NavBar";
 
-import logoStickers from "../src/img/icono.webp"
-
-
-const NavBar = ({inicio, carrito, contacto, logo}) => {
-  return (
-    <nav class="navBar">
-            <img src={logo} alt="logo"/>
-            <ul>
-                <li><a href="#">{inicio}</a></li>
-                <li><a href="#">{carrito}</a></li>
-                <li><a href="#">{contacto}</a></li>
-            </ul>
-        </nav>
-  )
-}
+import logoStickers from "../src/img/icono.webp";
 
 function App() {
   return (
@@ -22,7 +9,7 @@ function App() {
              <NavBar 
              logo={logoStickers}
              inicio="INICIO" 
-             carrito="CARRITO" 
+             carrito="MI CARRITO" 
              contacto="CONTACTO"
              ></NavBar>
     </div>

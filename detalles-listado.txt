@@ -1,0 +1,12 @@
+Voy a realizar un E-commerce de venta de stickers de anime.
+
+NOMBRE: STICKERS ANIME
+
+Para esta primera entrega realizo un NavBar  que va a contar de 3 paginas: INICIO, MI CARRITO, CONTACTO.
+
+En el main de inicio, van a estar los productos realizados mediante cards donde van a estar las opciones de los stickers
+con sus respectivas fotos, descripcion, precio y un boton clickeable para poder agregar dichos productos al carrito de compras.
+
+También tengo ganas de realizar un buscador para el filtrado por categorias del anime que se elija.
+
+
