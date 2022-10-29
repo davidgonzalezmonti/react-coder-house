@@ -1,16 +1,33 @@
-import "./NavBar.css"
+import "./Navbar.css"
+import { MdAccountCircle, MdShoppingCart, MdHome, MdTableRows } from "react-icons/md";
 
-const NavBar = ({inicio, carrito, contacto, logo}) => {
-    return (
-      <nav class="navBar">
-              <img src={logo} alt="logo"/>
-              <ul>
-                  <li><a href="index.html">{inicio}</a></li>
-                  <li><a href="index.html">{carrito}</a></li>
-                  <li><a href="index.html">{contacto}</a></li>
-              </ul>
-          </nav>
-    )
-  }
+const Navbar = ({ logo }) => {
+  return (
+    <nav className="navbar">
+      <img src={logo} alt="logo" />
+      <ul>
+        <li>
+          <p>
+          Inicio
+          </p>
+          <MdHome />
+        </li>
+        <li>
+        <p>
+          Mi cuenta
+          </p>
+          <MdAccountCircle />
+        </li>
+        <li>
+        <p>
+          Carrito
+          </p>
+          <MdShoppingCart />
+        </li>
+      </ul>
+      <span className="menuResponsive"><MdTableRows/></span>
+    </nav>
+  );
+};
 
-  export default NavBar;
+  export default Navbar;
