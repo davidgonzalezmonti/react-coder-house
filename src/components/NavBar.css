@@ -71,15 +71,12 @@ transition: all 0.8s ease;
   }
 
   @media screen and (max-width: 858px){
-    .menu {
-    display: none;
-  }
 
-  .menu-expanded {
+  .menu {
           background-color: #322f46f2;
       position: absolute;
       top: 84px;
-      right: 0;
+      /* right: 0; */
       width: 70%;
       height: 100vh;
       flex-direction: column;
@@ -94,11 +91,10 @@ transition: all 0.8s ease;
   cursor: pointer;
 }
 
-.menu-expanded li {
+.menu li {
   width: 100%;
   height: 70px;
   display: flex;
-  align-items: center;
   text-transform: uppercase;
   flex-direction: row-reverse;
   color: #322f46f2;
@@ -108,38 +104,8 @@ transition: all 0.8s ease;
   font-size: 2rem;
 }
 
-.menu-expanded li p {
-  display: flex;
-    align-items: center;
-    cursor: pointer;
-    color: #ebba50;
-}
-
-.menu-expanded li p:hover {
-  transform: scale(1.0);
-  color: #ffffff;
-  border-bottom: solid 1px rgb(255, 255, 255); 
-  transition: all 0.8s ease;
-  position: relative;
-}
-
-.menu-expanded li:hover{
+.menu li:hover{
   background-color: #7a6c25a8;
-  /* border-bottom: solid 1px #cbcbcb;  */
-}
-
-.menu-expanded svg {
-  color: #cbcbcb;
-cursor: pointer;
-height: 32px;
-  width: 32px;
-padding: 10px;
-transition: all 0.8s ease;
-  cursor: pointer;
-}
-
-.menu-expanded svg:hover{
-  filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.755));
 }
 
 .navbar{
@@ -164,12 +130,12 @@ transition: all 0.8s ease;
   }
 
   @media screen and (max-width: 320px){
-    .menu-expanded {
+    .menu {
       width: 65%;
 
     }
 
-    .menu-expanded li {
+    .menu li {
       justify-content: flex-end;
     }
   }

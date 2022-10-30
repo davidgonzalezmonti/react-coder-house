@@ -8,11 +8,20 @@ const mobileMenuClick = () =>{
 setMobileMenu(!mobileMenu);
 }
 
+const estiloUno = {
+  right: 0,
+};
+
+const estiloDos = {
+  right: "-100%",
+};
+
+
 
   return (
     <nav className="navbar">
       <img src={logo} alt="logo" />
-      <ul className={mobileMenu?"menu-expanded":"menu"}  >
+      <ul className="menu" style={mobileMenu ? estiloUno : estiloDos } >
         <li>
           <p>
           Inicio
