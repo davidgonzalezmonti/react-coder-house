@@ -1,11 +1,18 @@
 import "./Navbar.css"
 import { MdAccountCircle, MdShoppingCart, MdHome, MdTableRows } from "react-icons/md";
+import React, {useState} from "react";
 
 const Navbar = ({ logo }) => {
+const [mobileMenu,setMobileMenu] = useState("false")
+const mobileMenuClick = () =>{
+setMobileMenu(!mobileMenu);
+}
+
+
   return (
     <nav className="navbar">
       <img src={logo} alt="logo" />
-      <ul>
+      <ul className={mobileMenu?"menu-expanded":"menu"}  >
         <li>
           <p>
           Inicio
@@ -20,12 +27,12 @@ const Navbar = ({ logo }) => {
         </li>
         <li>
         <p>
-          Carrito
+          Mi carrito
           </p>
           <MdShoppingCart />
         </li>
       </ul>
-      <span className="menuResponsive"><MdTableRows/></span>
+      <span className="mobileIcon" onClick={mobileMenuClick}><MdTableRows/></span>
     </nav>
   );
 };
