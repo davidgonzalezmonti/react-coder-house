@@ -4,7 +4,7 @@ const CartWidget = () =>{
     return(
         <li>
         <p>
-          Mi carrito
+          MI CARRITO
           </p>
           <MdShoppingCart/>
           </li>

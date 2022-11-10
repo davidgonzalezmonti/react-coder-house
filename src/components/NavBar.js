@@ -1,6 +1,6 @@
 import "./Navbar.css"
 import CartWidget from './CartWidget'
-import { MdAccountCircle, MdHome, MdTableRows } from "react-icons/md";
+import { MdHome, MdTableRows, MdStore } from "react-icons/md";
 import React, {useState} from "react";
 
 const Navbar = ({ logo }) => {
@@ -12,15 +12,15 @@ const [mobileMenu,setMobileMenu] = useState("false")
       <ul className={mobileMenu ? "menu" : "menu-expanded"}>
         <li>
           <p>
-          Inicio
+          INICIO
           </p>
           <MdHome />
         </li>
         <li>
         <p>
-          Mi cuenta
+          PRODUCTOS
           </p>
-          <MdAccountCircle />
+          <MdStore/>
         </li>
         <CartWidget/>
       </ul>
