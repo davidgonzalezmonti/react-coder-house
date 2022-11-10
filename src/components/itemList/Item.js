@@ -1,7 +1,6 @@
-//*    COMPOPNENTE DESTINADO A MOSTRAR INFOMRACION BREVE DEL PRODUCTO QUE EL USER CLICKEARA LUEGO PARA ACCEDER A  [VER MAS DETALLES]
-
 import {useNavigate} from 'react-router-dom'
-// id, imagen, nombre
+import './ItemList.css'
+
 const Item = ({item}) => {
   const {id, imagen, nombre} = item;
   const navigate = useNavigate();
@@ -9,7 +8,6 @@ const Item = ({item}) => {
       navigate(`/detailItem/${id}`, {state: item});
   }
   
-
   return(
 <div key={id} className="card-productos">
   <div className="card-img-conteiner">

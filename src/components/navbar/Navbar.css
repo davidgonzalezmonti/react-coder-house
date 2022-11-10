@@ -35,19 +35,21 @@
     padding: 0px 4px;
 }
 
-.menu li p:hover, .menu-expanded li p:hover {
+.menu li a:hover, .menu-expanded li a:hover {
       transform: scale(1.0);
       color: #ffffff;
       border-bottom: solid 1px rgb(255, 255, 255); 
       position: relative;
+      
   }
 
-  .menu li p, .menu-expanded li p {
+  .menu li a, .menu-expanded li a {
   display: flex;
     align-items: center;
     cursor: pointer;
     color: #ebba50;
     transition: all 0.8s ease;
+    text-decoration: none;
 }
 
 .menu svg, .menu-expanded svg {

@@ -1,25 +1,30 @@
 import "./Navbar.css"
-import CartWidget from './CartWidget'
+import CartWidget from '../cartWidget/CartWidget'
 import { MdHome, MdTableRows, MdStore } from "react-icons/md";
 import React, {useState} from "react";
+import { NavLink, Link } from "react-router-dom";
 
-const Navbar = ({ logo }) => {
+const Navbar = () => {
 const [mobileMenu,setMobileMenu] = useState("false")
 
   return (
     <nav className="navbar">
-      <img src={logo} alt="logo" className="logo-navbar" />
+      <Link to={"/"}>
+      <img src="https://res.cloudinary.com/dbaqismy5/image/upload/v1668037022/Stock%20Stickers%20Anime/icono_w4f2wz.webp" alt="logo" className="logo-navbar" />
+      </Link>
       <ul className={mobileMenu ? "menu" : "menu-expanded"}>
         <li>
-          <p>
+        <NavLink to={"/"}>
           INICIO
-          </p>
+          </NavLink>
           <MdHome />
         </li>
         <li>
+        <NavLink to={"/catalogo"}>
         <p>
           PRODUCTOS
           </p>
+          </NavLink>
           <MdStore/>
         </li>
         <CartWidget/>

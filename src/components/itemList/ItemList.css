@@ -1,0 +1,98 @@
+.conteiner-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 5px rgb(0, 0, 0);
+    width: 250px;
+    border-radius: 20px;
+    transition: all 0.8s ease;
+    background: rgb(88,84,120);
+background: radial-gradient(circle, rgba(88,84,120,1) 0%, rgba(86,82,119,1) 40%, rgba(50,47,70,1) 100%);
+}
+
+.card-productos:hover{
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.651));
+    transition: all 0.8s ease;
+}
+
+.card-productos h2 {
+    font-size: 2.8rem;
+    margin: 20px 0px 5px 0px;
+    font-family: 'Akshar', sans-serif;
+    text-transform: uppercase;
+    transition: all 0.8s ease;
+    color: #cbcbcb;
+    text-shadow: 0px 0px 7px black;
+    border-bottom: solid #ffffff;
+    width: 242px;
+    text-align: center;
+    
+}
+
+.card-productos h2:hover {
+        filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.755));
+        
+}
+
+
+
+.card-productos ul li {
+    list-style: none;
+    text-align: center;
+    font-family: 'Akshar', sans-serif;
+    font-size: 1.5rem;
+    color: #ebba50;
+}
+
+.card-productos ul li strong{
+    color: black;
+    font-size: 30px;
+}
+
+.boton-card{
+    padding: 7px;
+    margin-top: 10px;
+    width: 197px;
+    background-color: #161616;
+    color: #ebba50;
+    transition: all 0.8s ease;
+    font-family: 'Akshar';
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.boton-card a{
+    text-decoration: none;
+    font-family: 'Akshar';
+    font-size: 20px;
+    font-weight: bold;
+    color: #ebba50;
+}
+
+.boton-card:hover{
+    transition: all 0.8s ease;
+    background-color: #ebba50;
+    color: #161616;
+}
+
+
+.card-img-conteiner{
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+.card-img{
+    width: 258px;
+    height: 258px;
+    border-radius: 9px;
+}

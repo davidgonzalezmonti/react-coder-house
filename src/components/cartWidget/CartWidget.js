@@ -1,11 +1,13 @@
 import { MdShoppingCart } from "react-icons/md";
+import { NavLink } from "react-router-dom";
+
 
 const CartWidget = () =>{
     return(
         <li>
-        <p>
+        <NavLink>
           MI CARRITO
-          </p>
+          </NavLink>
           <MdShoppingCart/>
           </li>
     )

@@ -1,23 +1,23 @@
 import { useState } from "react"
 import {MdRemoveCircleOutline, MdAddCircleOutline} from "react-icons/md";
-import './Count.css'
+import './ItemCount.css'
 
 export const Count = () => {
     const [cant, setCant] = useState(1)
 
-    const sumarCant = ()=>{
+    const addCant = ()=>{
         setCant(cant + 1)
     } 
-    const reatarCant = ()=>{
+    const subtractCant = ()=>{
         if(cant < 2 ) return
         setCant(cant - 1)
     }   
   return (
     <>
             <div className="count">
-                <i  onClick={reatarCant}><MdRemoveCircleOutline/></i>               
+                <i  onClick={subtractCant}><MdRemoveCircleOutline/></i>               
                 <p><b>{cant}</b></p>
-                <i onClick={sumarCant}><MdAddCircleOutline /></i> 
+                <i onClick={addCant}><MdAddCircleOutline /></i> 
             </div>
             
         </>

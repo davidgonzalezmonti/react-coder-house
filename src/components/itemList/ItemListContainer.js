@@ -1,8 +1,10 @@
 import ItemList from './ItemList'
 import { useEffect, useState } from "react"
 
+
 const ItemListContainer = () => {
     const [stickers, setStickers] = useState([])
+
     useEffect(()=> {
 apiStockStickers ()
     },[])

@@ -1,5 +1,3 @@
-//*    UTILIZAR EFECTO DE MONTAJE, LLAMAR A UN ASYNC MOCK, UTILIZANDO PROMISE, Y EN DOS SEGUNDOS DEVUELVA UN ITEM Y LO GUARDE EN UN ESTADO PROP
-
 import ItemDetail from "./ItemDetail"
 import { useEffect, useState } from "react"
 
