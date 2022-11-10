@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/react-coder-house/static/css/main.9cf1b372.css",
-    "main.js": "/react-coder-house/static/js/main.504283b8.js",
-    "static/js/787.43c9b9c1.chunk.js": "/react-coder-house/static/js/787.43c9b9c1.chunk.js",
-    "static/media/icono.webp": "/react-coder-house/static/media/icono.547bd6df129edc349188.webp",
+    "main.css": "/react-coder-house/static/css/main.a8a61184.css",
+    "main.js": "/react-coder-house/static/js/main.260c8083.js",
     "index.html": "/react-coder-house/index.html",
-    "main.9cf1b372.css.map": "/react-coder-house/static/css/main.9cf1b372.css.map",
-    "main.504283b8.js.map": "/react-coder-house/static/js/main.504283b8.js.map",
-    "787.43c9b9c1.chunk.js.map": "/react-coder-house/static/js/787.43c9b9c1.chunk.js.map"
+    "main.a8a61184.css.map": "/react-coder-house/static/css/main.a8a61184.css.map",
+    "main.260c8083.js.map": "/react-coder-house/static/js/main.260c8083.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cf1b372.css",
-    "static/js/main.504283b8.js"
+    "static/css/main.a8a61184.css",
+    "static/js/main.260c8083.js"
   ]
 }
