@@ -1,4 +1,4 @@
-.conteiner-card-detail{
+.conteiner-card-detail {
     display: flex;
     flex-wrap: wrap;
 }
@@ -13,11 +13,11 @@
     width: 250px;
     border-radius: 20px;
     transition: all 0.8s ease;
-    background: rgb(88,84,120);
-background: radial-gradient(circle, rgba(88,84,120,1) 0%, rgba(86,82,119,1) 40%, rgba(50,47,70,1) 100%);
+    background: rgb(88, 84, 120);
+    background: radial-gradient(circle, rgba(88, 84, 120, 1) 0%, rgba(86, 82, 119, 1) 40%, rgba(50, 47, 70, 1) 100%);
 }
 
-.card-productos-detail:hover{
+.card-productos-detail:hover {
     filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.651));
     transition: all 0.8s ease;
 }
@@ -33,11 +33,11 @@ background: radial-gradient(circle, rgba(88,84,120,1) 0%, rgba(86,82,119,1) 40%,
     border-bottom: solid #ffffff;
     width: 242px;
     text-align: center;
-    
+
 }
 
 .card-productos-detail h2:hover {
-        filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.755));    
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.755));
 }
 
 .card-productos-detail ul li {
@@ -48,12 +48,12 @@ background: radial-gradient(circle, rgba(88,84,120,1) 0%, rgba(86,82,119,1) 40%,
     color: #ebba50;
 }
 
-.card-productos-detail ul li strong{
+.card-productos-detail ul li strong {
     color: black;
     font-size: 30px;
 }
 
-.boton-card-detail{
+.boton-card-detail {
     padding: 7px;
     margin-top: 10px;
     width: 197px;
@@ -70,7 +70,7 @@ background: radial-gradient(circle, rgba(88,84,120,1) 0%, rgba(86,82,119,1) 40%,
 
 }
 
-.boton-card-detail a{
+.boton-card-detail a {
     text-decoration: none;
     font-family: 'Akshar';
     font-size: 20px;
@@ -78,20 +78,28 @@ background: radial-gradient(circle, rgba(88,84,120,1) 0%, rgba(86,82,119,1) 40%,
     color: #ebba50;
 }
 
-.boton-card-detail:hover{
+.boton-card-detail:hover {
     transition: all 0.8s ease;
     background-color: #ebba50;
     color: #161616;
 }
 
-.card-img-conteiner-detail{
+.card-img-conteiner-detail {
     display: flex;
     flex: 1;
     overflow: hidden;
 }
-.card-img-detail{
+
+.card-img-detail {
     width: 258px;
     height: 258px;
     border-radius: 9px;
 }
 
+
+.main-detail {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

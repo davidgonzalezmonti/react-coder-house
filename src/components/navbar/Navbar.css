@@ -5,9 +5,8 @@
     background: #322F46;
     font-family: 'Akshar', sans-serif;
     height: 65px;
-    margin: 19px 3px;
-    border-radius: 5px;
-    box-shadow: 1px 0px 12px 3px #d5d3d3;
+    margin: 19px 0;
+    box-shadow: 1px 0px 12px 3px #000000;
   }
   
   .logo-navbar{

@@ -11,9 +11,10 @@ function App() {
   return (
     <div className="container">
       <Navbar></Navbar>
-      <main>
+      <main className='main-container'>
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/react-coder-house" element={<Home />} />
           <Route exact path="/catalogo" element={<Catalogo />} />
           <Route exact path="/detailItem/:stickerId" element={<DetailItem />} />
         </Routes>

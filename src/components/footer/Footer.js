@@ -1,22 +1,19 @@
 import "./Footer.css";
+import { Link } from "react-router-dom";
+import { BsInstagram, BsFacebook, BsWhatsapp } from "react-icons/bs";
 
 const Footer = () => {
     return(
-<section className="footer">
-    <img src="https://res.cloudinary.com/dbaqismy5/image/upload/v1667759746/Stock%20Stickers%20Anime/logo-mugiwara-min_ok54tn.jpg" alt="mugiwara"  />
-    <img src="https://res.cloudinary.com/dbaqismy5/image/upload/v1667759746/Stock%20Stickers%20Anime/dragon-ball-z-logo-min_brlw5j.png" alt="dragonBall"  />
-    <img src="https://res.cloudinary.com/dbaqismy5/image/upload/v1667759745/Stock%20Stickers%20Anime/kimetsu-no-yaiba-min_icwjq5.jpg" alt="kimetsuNoYaiba"  />
+    <section className="footer">
+    <p>SEGUINOS EN NUESTRAS REDES:</p>
+    <h5>Copyright Anime Stickers©</h5>
+    <div>
+        <Link> <BsInstagram className="instagram" /> </Link>
+        <Link> <BsFacebook className="facebook"/> </Link>
+        <Link> <BsWhatsapp className="whatsapp"/> </Link>
+    </div>
 </section>
     )
 }
 
 export default Footer;
-
-
-// <div>
-// <section id="footer" class="sectionFooter">
-// <img class="footer" src="" alt="">
-// <img class="footer" src="" alt="">
-// <img class="footer" src="" alt=""></img>
-// <section/>
-// </div>
