@@ -1,15 +1,16 @@
 import { MdShoppingCart } from "react-icons/md";
 import { NavLink } from "react-router-dom";
+import "./CartWidget.css" 
 
-
-const CartWidget = () =>{
+const CartWidget = ({cantidad}) =>{
     return(
-        <li>
+        <div className="cartWidget">
         <NavLink>
-          MI CARRITO
-          </NavLink>
           <MdShoppingCart/>
-          </li>
+          </NavLink>
+          <span>0</span>
+          </div>
+          
     )
 }
 

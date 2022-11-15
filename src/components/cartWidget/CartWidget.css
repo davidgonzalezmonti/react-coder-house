@@ -1,0 +1,38 @@
+.cartWidget{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: #cbcbcb;
+    border: solid 3px #161616;
+    border-radius: 8px;
+    height: 10;
+    width: 61px;
+    margin-right: 10px;
+    justify-content: center;
+    transition: all 0.8s ease;
+}
+
+.cartWidget:hover{
+    transition: all 0.8s ease;
+    background-color: #ebba50;
+}
+
+.cartWidget svg{
+    display: flex;
+    color: #322f46;
+    cursor: pointer;
+    height: 32px;
+    width: 32px;
+    transition: all 0.8s ease;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.cartWidget span {
+    color: #322f46;
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}

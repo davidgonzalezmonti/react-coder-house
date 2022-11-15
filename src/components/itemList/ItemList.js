@@ -1,10 +1,10 @@
 import Item from "./Item";
 
-const ItemList = ({ item }) => {
+const ItemList = ({ item, goToDetail }) => {
   return (
     <div className="conteiner-card">
       {item.map((sticker) => (
-        <Item item={sticker}></Item>
+        <Item item={sticker} goToDetail={goToDetail}></Item>
       ))}
     </div>
   );
