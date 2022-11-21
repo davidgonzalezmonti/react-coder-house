@@ -1,10 +1,10 @@
 import ItemDetail from "./ItemDetail"
 
 
-const ItemDetailContainer = ({stickersDetail}) => {
+const ItemDetailContainer = () => {
 
     return(
-        <ItemDetail item={stickersDetail}></ItemDetail>
+        <ItemDetail ></ItemDetail>
     )
 }
 

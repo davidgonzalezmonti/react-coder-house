@@ -1,14 +1,18 @@
+import "./CartWidget.css" 
 import { MdShoppingCart } from "react-icons/md";
 import { NavLink } from "react-router-dom";
-import "./CartWidget.css" 
+import { useCartContext } from "../../context/CartContext";
 
 const CartWidget = ({cantidad}) =>{
+
+    const {totalProducts} = useCartContext();
+
     return(
         <div className="cartWidget">
-        <NavLink>
+        <NavLink to={"/cart"}>
           <MdShoppingCart/>
           </NavLink>
-          <span>0</span>
+          <span>{totalProducts() || "" }</span>
           </div>
           
     )

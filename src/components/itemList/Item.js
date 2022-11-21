@@ -1,9 +1,8 @@
-// import {useNavigate} from 'react-router-dom'
 import './ItemList.css'
 
 const Item = ({item, goToDetail}) => {
-  const {id, imagen, nombre} = item;
-  
+  const {id, imagen, nombre} = item
+
   return(
 <div key={id} className="card-productos">
   <div className="card-img-conteiner">

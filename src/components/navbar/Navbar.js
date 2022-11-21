@@ -27,7 +27,7 @@ const [mobileMenu,setMobileMenu] = useState("false")
           </NavLink>
           <MdStore/>
         </li>
-        <CartWidget/>
+        <CartWidget />
       </ul>
       <span className="mobileIcon" onClick={() =>setMobileMenu(!mobileMenu)}><MdTableRows/></span>
     </nav>

@@ -84,6 +84,7 @@ background: radial-gradient(circle, rgba(88,84,120,1) 0%, rgba(86,82,119,1) 40%,
     transition: all 0.8s ease;
     background-color: #ebba50;
     color: #161616;
+    box-shadow: 1px 1px 12px 1px #161616;
 }
 
 

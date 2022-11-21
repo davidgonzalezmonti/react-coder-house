@@ -54,36 +54,6 @@
     font-size: 30px;
 }
 
-.boton-card-detail {
-    padding: 7px;
-    margin-top: 10px;
-    width: 197px;
-    background-color: #161616;
-    color: #ebba50;
-    transition: all 0.8s ease;
-    font-family: 'Akshar';
-    font-size: 20px;
-    font-weight: bold;
-    border: none;
-    border-radius: 20px;
-    text-decoration: none;
-    text-align: center;
-
-}
-
-.boton-card-detail a {
-    text-decoration: none;
-    font-family: 'Akshar';
-    font-size: 20px;
-    font-weight: bold;
-    color: #ebba50;
-}
-
-.boton-card-detail:hover {
-    transition: all 0.8s ease;
-    background-color: #ebba50;
-    color: #161616;
-}
 
 .card-img-conteiner-detail {
     display: flex;
