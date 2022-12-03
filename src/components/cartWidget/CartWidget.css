@@ -5,7 +5,7 @@
     background-color: #cbcbcb;
     border: solid 3px #161616;
     border-radius: 8px;
-    height: 10;
+    height: 45px;
     width: 61px;
     margin-right: 10px;
     justify-content: center;
@@ -35,4 +35,13 @@
     align-items: center;
     display: flex;
     justify-content: flex-start;
+}
+
+@media screen and (max-width: 858px)
+{
+
+    .cartWidget{
+        width: 150px;
+        
+    }
 }

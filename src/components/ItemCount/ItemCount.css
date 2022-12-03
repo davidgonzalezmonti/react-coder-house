@@ -4,6 +4,8 @@
     justify-content: center;
 }
 
+
+
 .button-count {
     color: #000000;
     font-size: 30px;
@@ -46,12 +48,7 @@
     transition: all 0.8s ease;
     font-family: 'Akshar';
     font-size: 20px;
-    font-weight: bold;
-    border: none;
     border-radius: 20px;
-    text-decoration: none;
-    text-align: center;
-
 }
 
 
@@ -60,4 +57,9 @@
     background-color: #ebba50;
     color: #161616;
     box-shadow: 1px 1px 12px 1px #161616;
+    font-weight: bold;
+}
+
+.div-button{
+    text-align: center;
 }

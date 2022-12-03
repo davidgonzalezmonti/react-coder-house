@@ -1,26 +1,3 @@
-.input-search {
-    width: 50%;
-    display: flex;
-    border: 1px solid #3e3b56;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px auto;
-    font-size: 14px;
-    font-weight: bold;
-    color: #212121;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffffcc;
-}
-
-/* .input:focus {
-    outline: none;
-} */
-
-.input-search::placeholder {
-    color: #212121;
-}
-
 .filter{
     display: flex;
     justify-content: center;
@@ -29,21 +6,31 @@
 }
 
 
-.filter button{
+.filter a{
+    display: flex;
+padding: 10px;
+align-items: center;
+justify-content: center;
     margin: 10px;
     border: none;
     border-radius: 20px;
     width: 182px;
-    height: 30px;
+    height: 12px;
     background-color: #161616;
     color: #ebba50;
     font-weight: bold;
     font-family: 'Akshar';
     transition: all 0.8s ease;
     font-size: 18px;
+    text-decoration:none;
 }
 
-.filter button:hover{
+.filter a:focus{
+    background-color: #ebba50;
+    color: #161616;
+}
+
+.filter a:hover{
     transition: all 0.8s ease;
     background-color: #ebba50;
     color: #161616;
