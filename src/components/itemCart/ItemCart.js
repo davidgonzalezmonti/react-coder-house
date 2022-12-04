@@ -21,7 +21,6 @@ const ItemCart = ({product}) => {
           <ul>
             <li> Precio unidad: ${product.precio}</li>
             <li>Cantidad: {product.quantity}</li>
-            {/* <li> Anime: {product.anime}</li> */}
             <li> Tamaño: {product.tamaño}</li>
           <li>Subtotal: ${product.quantity * product.precio}</li>
           </ul>

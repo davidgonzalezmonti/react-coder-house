@@ -10,11 +10,9 @@ function CheckoutForm() {
 const {cart, totalPrice} = useCartContext()
 
   const valorInicial = {
-    buyer: {
       nombre: "",
       telefono: "",
-      email: ""
-    },
+      email: "",
     items: cart.map(product => ({id: product.id, nombre: product.nombre, precio: product.precio, quantity: product.quantity})),
     total: totalPrice(),
   }
@@ -30,13 +28,10 @@ const capturarInputs = (e) =>{
 
 const guardarDatos = (e) => {
   e.preventDefault();
-  // console.log(user);
   try {
     const db = getFirestore();
     const ordersCollection = collection(db, "orders")
     addDoc(ordersCollection,{...user})
-    // await addDoc(collection( db, "orders"),{...user})
-    // console.log(user);
   } catch (error) {
     console.log(error);
   }
@@ -47,7 +42,7 @@ const guardarDatos = (e) => {
 
 
   return (
-    <form onSubmit={guardarDatos} >
+    <form className="form-checkout" onSubmit={guardarDatos} >
       <div className="checkout-container">
         <input
           onChange={capturarInputs}
@@ -71,28 +66,10 @@ const guardarDatos = (e) => {
           placeholder="Email"
         />
       </div>
-      <button>GUARDAR</button>
+      <button className="finalizar-cart">Finalizar compra</button>
     </form>
   );
 }
 
 
 export default CheckoutForm  ;
-
-
-
-  // const [dataForm, setDataForm] = useState({
-  //   name: "",
-  //   phone: "",
-  //   email: "",
-  // });
-
-  // function handleInputChange(event) {
-  //   let inputName = event.target.name;
-  //   let value = event.target.value;
-
-  //   const newDataForm = { ...dataForm };
-  //   newDataForm[inputName] = value;
-  //   setDataForm(newDataForm);
-  //   console.log(dataForm);
-  // }

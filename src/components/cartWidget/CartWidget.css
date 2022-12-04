@@ -1,4 +1,4 @@
-.cartWidget{
+.cartWidget {
     display: flex;
     align-items: center;
     align-content: center;
@@ -12,12 +12,12 @@
     transition: all 0.8s ease;
 }
 
-.cartWidget:hover{
+.cartWidget:hover {
     transition: all 0.8s ease;
     background-color: #ebba50;
 }
 
-.cartWidget svg{
+.cartWidget svg {
     display: flex;
     color: #322f46;
     cursor: pointer;
@@ -37,11 +37,10 @@
     justify-content: flex-start;
 }
 
-@media screen and (max-width: 858px)
-{
+@media screen and (max-width: 858px) {
 
-    .cartWidget{
+    .cartWidget {
         width: 150px;
-        
+
     }
 }
