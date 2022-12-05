@@ -7,7 +7,7 @@ Basicamente es un simulador de un Ecommerce
 Demo de la App:
 
 
-![Demo](https://res.cloudinary.com/dbaqismy5/video/upload/v1670206332/Stock%20Stickers%20Anime/Stcikers_Anime_-_Google_Chrome_2022-12-04_23-04-48_joquoy.mp4)
+<https://res.cloudinary.com/dbaqismy5/video/upload/v1670206332/Stock%20Stickers%20Anime/Stcikers_Anime_-_Google_Chrome_2022-12-04_23-04-48_joquoy.mp4>
 
 
 
