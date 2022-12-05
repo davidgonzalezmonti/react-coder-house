@@ -44,7 +44,7 @@ Y la libreria externa SweetAlert2 para darle un poco mas de estilo.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/davidgonzalezmonti/react-coder-house
+   git clone https://github.com/davidgonzalezmonti/react-coder-house/tree/proyectoFinal
    ```
 2. Install NPM packages
    ```sh
