@@ -1,57 +1,55 @@
 .footer div a {
-    color: #ebba50;
-    font-size: 30px;
-    transition: all 0.8s;
-    margin: 3px;
+  color: #ebba50;
+  font-size: 30px;
+  transition: all 0.8s;
+  margin: 3px;
 }
 
 .footer {
-    background-color: #322f46;
-    padding: 6px;
-    box-shadow: 1px 0px 20px 4px black;
-    color: #ffffff;
-    /* margin-top: 20px; */
+  background-color: #322f46;
+  padding: 6px;
+  box-shadow: 1px 0px 20px 4px black;
+  color: #ffffff;
 }
 
 .footer p {
-    font-weight: bolder;
-    text-align: center;
-    font-family: 'Akshar', sans-serif;
-    margin-bottom: 0rem;
+  font-weight: bolder;
+  text-align: center;
+  font-family: "Akshar", sans-serif;
+  margin-bottom: 0rem;
 }
 
 .footer h5 {
-    font-family: 'Akshar', sans-serif;
-    position: absolute;
-    margin-left: 20px;
-    font-size: 15px;
+  font-family: "Akshar", sans-serif;
+  position: absolute;
+  margin-left: 20px;
+  font-size: 15px;
 }
 
 .footer div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 .footer .instagram:hover {
-    transition: all 0.8s ease;
-    color: #161616;
+  transition: all 0.8s ease;
+  color: #161616;
 }
 
 .footer .whatsapp:hover {
-    transition: all 0.8s ease;
-    color: #161616;
+  transition: all 0.8s ease;
+  color: #161616;
 }
 
 .footer .facebook:hover {
-    transition: all 0.8s ease;
-    color: #161616;
+  transition: all 0.8s ease;
+  color: #161616;
 }
 
 @media screen and (max-width: 425px) {
-    .footer h5 {
-        display: none;
-    }
-
+  .footer h5 {
+    display: none;
+  }
 }

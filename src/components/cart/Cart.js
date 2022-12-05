@@ -36,7 +36,7 @@ export const Cart = () => {
         <button className="vaciar-cart" onClick={clearCart}>
           Vaciar carrito
         </button>
-        <button className="ver-mas-cart">Ver mas productos</button>
+        <button className="ver-mas-cart" to="/catalogo">Ver mas productos</button>
       </section>
     </div>
   );

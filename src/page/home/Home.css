@@ -1,112 +1,114 @@
 .home {
-    display: flex;
-    flex-wrap: wrap;
-
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .home-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 100px auto 100px auto;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px 3px black;
-    transition: all 1.4s ease;
-    background-color: rgba(255, 255, 255, 0.781);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px auto 100px auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 3px black;
+  transition: all 1.4s ease;
+  background-color: rgba(255, 255, 255, 0.781);
 }
 
 .home-card:hover {
-    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.651));
-    transition: all 0.8s ease;
-    transform: translateY(-6px);
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.651));
+  transition: all 0.8s ease;
+  transform: translateY(-6px);
 }
 
 .conteiner-img-home img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 40px;
-    margin: 20px;
-
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 40px;
+  margin: 20px;
 }
 
 .home-card h1 {
-    background: rgb(88, 84, 120);
-    background: radial-gradient(circle, rgba(88, 84, 120, 1) 0%, rgba(86, 82, 119, 1) 40%, rgba(50, 47, 70, 1) 100%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    font-family: 'Zen Dots', cursive;
-    font-size: 5rem;
-    height: 77px;
+  background: rgb(88, 84, 120);
+  background: radial-gradient(
+    circle,
+    rgba(88, 84, 120, 1) 0%,
+    rgba(86, 82, 119, 1) 40%,
+    rgba(50, 47, 70, 1) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: "Zen Dots", cursive;
+  font-size: 5rem;
+  height: 77px;
 }
 
 .home-card h3 {
-    font-family: 'Zen Dots', cursive;
-    margin-bottom: 20px;
+  font-family: "Zen Dots", cursive;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1024px) {
-    .conteiner-img-home img {
-        width: 250px;
-        height: 250px;
-    }
+  .conteiner-img-home img {
+    width: 250px;
+    height: 250px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .conteiner-img-home img {
-        width: 200px;
-        height: 200px;
-    }
+  .conteiner-img-home img {
+    width: 200px;
+    height: 200px;
+  }
 
-    .home-card {
-        padding: 10px;
-    }
+  .home-card {
+    padding: 10px;
+  }
 
-    .home-card h1 {
-        font-size: 3.5rem;
-        height: 56px;
-    }
+  .home-card h1 {
+    font-size: 3.5rem;
+    height: 56px;
+  }
 }
 
 @media screen and (max-width: 425px) {
-    .home-card h1 {
-        font-size: 2rem;
-        height: 38px;
-    }
+  .home-card h1 {
+    font-size: 2rem;
+    height: 38px;
+  }
 
-    .home-card h3 {
-        font-size: 0.8rem;
-    }
+  .home-card h3 {
+    font-size: 0.8rem;
+  }
 
-    .home-card {
-        width: 380px;
-        margin: 20px auto 20px auto;
-    }
+  .home-card {
+    width: 380px;
+    margin: 20px auto 20px auto;
+  }
 
-    .conteiner-img-home img {
-        width: 331px;
-        height: 200px;
-        margin-bottom: 0px;
-    }
+  .conteiner-img-home img {
+    width: 331px;
+    height: 200px;
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (max-width: 375px) {
-    .home-card {
-        width: 287px;
-    }
+  .home-card {
+    width: 287px;
+  }
 
-    .conteiner-img-home img {
-        width: 280px;
-    }
+  .conteiner-img-home img {
+    width: 280px;
+  }
 
-    .home-card h1 {
-        font-size: 1.6rem;
-    }
+  .home-card h1 {
+    font-size: 1.6rem;
+  }
 
-    .home-card h3 {
-        font-size: 0.6rem;
-    }
-
+  .home-card h3 {
+    font-size: 0.6rem;
+  }
 }

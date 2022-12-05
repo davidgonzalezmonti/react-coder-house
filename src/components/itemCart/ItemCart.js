@@ -1,11 +1,10 @@
-import { useCartContext } from '../../context/CartContext';
-import './ItemCart.css';
+import { useCartContext } from "../../context/CartContext";
+import "./ItemCart.css";
 
-const ItemCart = ({product}) => {
-  
-   const { removeProduct } = useCartContext();
+const ItemCart = ({ product }) => {
+  const { removeProduct } = useCartContext();
 
-   return (
+  return (
     <section className="main-carrito">
       <div className="conteiner-card-carrito">
         <div key={product.id} className="card-productos-carrito">
@@ -17,40 +16,23 @@ const ItemCart = ({product}) => {
             />
           </div>
           <div className="description-carrito">
-          <h2>{product.nombre}</h2>
-          <ul>
-            <li> Precio unidad: ${product.precio}</li>
-            <li>Cantidad: {product.quantity}</li>
-            <li> Tamaño: {product.tamaño}</li>
-          <li>Subtotal: ${product.quantity * product.precio}</li>
-          </ul>
-          <div className="button-carrito" >
-          <button onClick={() => removeProduct(product.id)} >Eliminar</button>
+            <h2>{product.nombre}</h2>
+            <ul>
+              <li> Precio unidad: ${product.precio}</li>
+              <li>Cantidad: {product.quantity}</li>
+              <li> Tamaño: {product.tamaño}</li>
+              <li>Subtotal: ${product.quantity * product.precio}</li>
+            </ul>
+            <div className="button-carrito">
+              <button onClick={() => removeProduct(product.id)}>
+                Eliminar
+              </button>
+            </div>
           </div>
-</div>
         </div>
       </div>
     </section>
   );
-
-
-
-
-// return (
-
-// <div className='carrito'>
-//     <img src="" alt="" srcset="" />
-//     <div>
-//         <p>Titulo: {product.nombre}</p>
-//         <p>Cantidad: {product.quantity}</p>
-//         <p>Precio: ${product.precio}</p>
-//         <p>Subtotal: ${product.quantity * product.precio}</p>
-//         <button onClick={() => removeProduct(product.id)} >Eliminar</button>
-//     </div>
-// </div>
-
-// )
-
-}
+};
 
 export default ItemCart;

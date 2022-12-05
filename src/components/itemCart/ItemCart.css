@@ -1,73 +1,75 @@
 .conteiner-card-carrito {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 .card-productos-carrito {
-    display: flex;
-    align-items: center;
-    margin: 20px auto 10px;
-    padding: 20px;
-    box-shadow: 0px 0px 20px 5px rgb(0 0 0);
-    height: 220px;
-    border-radius: 20px;
-    transition: all 0.8s ease;
-    background: radial-gradient(circle, rgba(88, 84, 120, 1) 0%, rgba(86, 82, 119, 1) 40%, rgba(50, 47, 70, 1) 100%);
+  display: flex;
+  align-items: center;
+  margin: 20px auto 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 20px 5px rgb(0 0 0);
+  height: 220px;
+  border-radius: 20px;
+  transition: all 0.8s ease;
+  background: radial-gradient(
+    circle,
+    rgba(88, 84, 120, 1) 0%,
+    rgba(86, 82, 119, 1) 40%,
+    rgba(50, 47, 70, 1) 100%
+  );
 }
 
 .card-productos-carrito:hover {
-    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.651));
-    transition: all 0.8s ease;
-    transform: translateY(-6px);
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.651));
+  transition: all 0.8s ease;
+  transform: translateY(-6px);
 }
 
 .card-productos-carrito h2 {
-    font-size: 2.8rem;
-    margin: 20px 0px 5px 0px;
-    font-family: 'Akshar', sans-serif;
-    text-transform: uppercase;
-    transition: all 0.8s ease;
-    color: #cbcbcb;
-    text-shadow: 0px 0px 7px black;
-    border-bottom: solid #ffffff;
-    width: 500px;
-    text-align: center;
-
+  font-size: 2.8rem;
+  margin: 20px 0px 5px 0px;
+  font-family: "Akshar", sans-serif;
+  text-transform: uppercase;
+  transition: all 0.8s ease;
+  color: #cbcbcb;
+  text-shadow: 0px 0px 7px black;
+  border-bottom: solid #ffffff;
+  width: 500px;
+  text-align: center;
 }
 
 .card-productos-carrito h2:hover {
-    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.755));
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.755));
 }
 
 .card-productos-carrito ul {
-    display: flex;
-    margin: 10px;
+  display: flex;
+  margin: 10px;
 }
 
-
 .card-productos-carrito ul li {
-    list-style: none;
-    text-align: center;
-    font-family: 'Akshar', sans-serif;
-    font-size: 1.5rem;
-    color: #ebba50;
-    margin: 0px 10px;
+  list-style: none;
+  text-align: center;
+  font-family: "Akshar", sans-serif;
+  font-size: 1.5rem;
+  color: #ebba50;
+  margin: 0px 10px;
 }
 
 .card-img-conteiner-carrito {
-    display: flex;
-    overflow: hidden;
+  display: flex;
+  overflow: hidden;
 }
 
 .card-img-carrito {
-    width: 258px;
-    height: 258px;
-    border-radius: 9px;
+  width: 258px;
+  height: 258px;
+  border-radius: 9px;
 }
-
 
 /* .main-carrito {
     height: 100vh;
@@ -77,81 +79,80 @@
 } */
 
 .description-carrito {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-carrito {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .button-carrito button {
-    text-decoration: none;
-    padding: 7px;
-    margin-top: 10px;
-    width: 197px;
-    background-color: #161616;
-    color: #ebba50;
-    transition: all 0.8s ease;
-    font-family: 'Akshar';
-    font-size: 20px;
-    border-radius: 20px;
-    text-align: center;
+  text-decoration: none;
+  padding: 7px;
+  margin-top: 10px;
+  width: 197px;
+  background-color: #161616;
+  color: #ebba50;
+  transition: all 0.8s ease;
+  font-family: "Akshar";
+  font-size: 20px;
+  border-radius: 20px;
+  text-align: center;
 }
 
 .button-carrito button:hover {
-    transition: all 0.8s ease;
-    background-color: #b30404;
-    color: #ffffff;
-    /* background-color: #ebba50;
+  transition: all 0.8s ease;
+  background-color: #b30404;
+  color: #ffffff;
+  /* background-color: #ebba50;
     color: #161616; */
-    box-shadow: 1px 1px 12px 1px #161616;
-    font-weight: bold;
+  box-shadow: 1px 1px 12px 1px #161616;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
-    .description-carrito h2 {
-        width: 404px;
-    }
+  .description-carrito h2 {
+    width: 404px;
+  }
 }
 
 @media screen and (max-width: 425px) {
-    .description-carrito h2 {
-        width: 300px;
-        font-size: 40px;
-        margin: 0;
-    }
+  .description-carrito h2 {
+    width: 300px;
+    font-size: 40px;
+    margin: 0;
+  }
 
-    .card-productos-carrito {
-        height: 100%;
-        flex-direction: column;
-    }
+  .card-productos-carrito {
+    height: 100%;
+    flex-direction: column;
+  }
 
-    .card-productos-carrito ul {
-        flex-direction: column;
-    }
+  .card-productos-carrito ul {
+    flex-direction: column;
+  }
 
-    .card-img-carrito {
-        width: 150px;
-        height: 150px;
-    }
+  .card-img-carrito {
+    width: 150px;
+    height: 150px;
+  }
 
-    .card-productos-carrito ul li {
-        font-size: 20px;
-    }
+  .card-productos-carrito ul li {
+    font-size: 20px;
+  }
 
-    .button-carrito button {
-        padding: 0;
-    }
-
+  .button-carrito button {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 375px) {
-    .description-carrito h2 {
-        width: 237px;
-    }
+  .description-carrito h2 {
+    width: 237px;
+  }
 }

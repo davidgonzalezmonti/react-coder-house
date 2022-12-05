@@ -15,17 +15,17 @@ export const ItemListContainer = () => {
 
     useEffect(() => {
         setIsLoading(true)
-       const querydb = getFirestore();
-       const queryCollection = collection(querydb, "productos-stickers");
-       if (categoriaId) {
+        const querydb = getFirestore();
+        const queryCollection = collection(querydb, "productos-stickers");
+        if (categoriaId) {
         const queryFilter = query(queryCollection, where("categoria" , "==", categoriaId))
         getDocs(queryFilter)
         .then(res=> setStickers(res.docs.map(product => ({id: product.id, ...product.data() }))))
         .finally(() => setIsLoading(false));
     } else{
-           getDocs(queryCollection)
-           .then(res=> setStickers(res.docs.map(product => ({id: product.id, ...product.data() }))))
-           .finally(() => setIsLoading(false))
+        getDocs(queryCollection)
+        .then(res=> setStickers(res.docs.map(product => ({id: product.id, ...product.data() }))))
+        .finally(() => setIsLoading(false))
        }
         
         

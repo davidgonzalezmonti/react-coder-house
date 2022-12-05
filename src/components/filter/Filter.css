@@ -1,66 +1,64 @@
 .filter {
-    display: flex;
-    justify-content: center;
-    background-color: #322f46e3;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: #322f46e3;
+  margin-bottom: 30px;
 }
 
 .filter a {
-    display: flex;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    border: none;
-    border-radius: 20px;
-    width: 182px;
-    height: 12px;
-    background-color: #161616;
-    color: #ebba50;
-    font-weight: bold;
-    font-family: 'Akshar';
-    transition: all 0.8s ease;
-    font-size: 18px;
-    text-decoration: none;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 182px;
+  height: 12px;
+  background-color: #161616;
+  color: #ebba50;
+  font-weight: bold;
+  font-family: "Akshar";
+  transition: all 0.8s ease;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .filter a:focus {
-    background-color: #ebba50;
-    color: #161616;
+  background-color: #ebba50;
+  color: #161616;
 }
 
 .filter a:hover {
-    transition: all 0.8s ease;
-    background-color: #ebba50;
-    color: #161616;
-    box-shadow: 1px 1px 12px 1px #161616;
+  transition: all 0.8s ease;
+  background-color: #ebba50;
+  color: #161616;
+  box-shadow: 1px 1px 12px 1px #161616;
 }
 
-
 @media screen and (max-width: 768px) {
-    .filter a {
-        width: 113px;
-    }
-
+  .filter a {
+    width: 113px;
+  }
 }
 
 @media screen and (max-width: 425px) {
-    .filter a {
-        width: 80px;
-        font-size: 12px;
-        margin: 2px;
-    }
+  .filter a {
+    width: 80px;
+    font-size: 12px;
+    margin: 2px;
+  }
 }
 
 @media screen and (max-width: 375px) {
-    .filter a {
-        width: 126px;
-        font-size: 12px;
-        margin: 2px;
-    }
+  .filter a {
+    width: 126px;
+    font-size: 12px;
+    margin: 2px;
+  }
 
-    .filter {
-        flex-direction: column;
-        align-items: center;
-    }
+  .filter {
+    flex-direction: column;
+    align-items: center;
+  }
 }
