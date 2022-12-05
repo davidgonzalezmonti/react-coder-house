@@ -7,7 +7,7 @@ Basicamente es un simulador de un Ecommerce
 Demo de la App:
 
 
-![2022-12-04 15-02-40](https://res.cloudinary.com/dbaqismy5/video/upload/v1670202967/Stock%20Stickers%20Anime/ScreenRecorderProject1_eibuva.mp4)
+![](https://res.cloudinary.com/dbaqismy5/video/upload/v1670202967/Stock%20Stickers%20Anime/ScreenRecorderProject1_eibuva.mp4)
 
 
 
